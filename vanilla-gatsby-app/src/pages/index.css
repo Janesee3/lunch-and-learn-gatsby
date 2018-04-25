@@ -1,0 +1,20 @@
+#link {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background:  #60B5A4;
+  text-decoration: none;
+  color: white;
+
+  margin: 5% 0 ;
+}
+
+#profile-image {
+  border-radius: 50%;
+}
+
+#profile-image-container {
+  margin: 0 auto;
+  max-width: 70%
+}

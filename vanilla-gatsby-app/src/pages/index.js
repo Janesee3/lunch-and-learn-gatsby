@@ -1,12 +1,27 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import profilePicture from '../images/profile-picture.jpg'
+
+import './index.css'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div id="profile-image-container">
+      <img src={profilePicture} id="profile-image" />
+    </div>
+    <h1>Hello world</h1>
+    <p>I am David.</p>
+    <p>
+      I’m a full-stack web developer. I provide tools to help businesses and
+      companies turn concepts into reality. In my free time, you will find me
+      eating.
+    </p>
+    <Link id="link" to="/projects/">
+      Projects
+    </Link>
+    <Link id="link" to="/skills/">
+      Skills
+    </Link>
   </div>
 )
 

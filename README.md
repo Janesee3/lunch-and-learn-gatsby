@@ -9,6 +9,9 @@
 - what is gatsby
 - what problem does it solve
 - how to use it
+  - how to install cli
   - vanilla version
   - template version
 - how to deploy 
+- pitfalls
+  - hot reloading not as good as create-react-app. have to manually refresh browser from time to time
