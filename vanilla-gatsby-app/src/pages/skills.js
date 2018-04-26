@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 import SkillsCard from '../components/SkillsCard/SkillsCard'
 import { languages, agileSkills } from '../data/seedData'
 
-console.log(languages)
 const SkillsList = () => (
   <div>
     <Link to="/">← Go back to homepage</Link>

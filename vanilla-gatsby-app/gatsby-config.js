@@ -1,6 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: "David's Portfolio Site",
+    title: "david's musings",
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  pathPrefix: `/vanilla-gatsby-app`,
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`,
+      },
+    },
+  ],
 }
