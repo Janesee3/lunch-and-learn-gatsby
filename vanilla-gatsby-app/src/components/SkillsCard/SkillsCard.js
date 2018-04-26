@@ -1,12 +1,16 @@
 import React from 'react'
+import GridsScale from '../GridsScale/GridsScale'
 
-const SkillsCard = ({ skills }) => (
-  <div>
-    {skills.map(skill => {
+import './SkillsCard.css'
+
+const SkillsCard = ({ skills, title }) => (
+  <div className="skills-card-container">
+    <h3>{title}</h3>
+    {skills.map((skill, i) => {
       return (
-        <h3>
-          {skill.name}: {skill.proficiency}
-        </h3>
+        <div key={i}>
+          {skill.name}: <GridsScale level={skill.proficiency} />
+        </div>
       )
     })}
   </div>

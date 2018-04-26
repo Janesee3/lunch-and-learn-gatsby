@@ -33,7 +33,7 @@ export const languages = [
 export const agileSkills = [
   {
     name: 'unit testing',
-    proficiency: 9,
+    proficiency: 5,
   },
   {
     name: 'continuous integration',
@@ -41,6 +41,25 @@ export const agileSkills = [
   },
   {
     name: 'continuous development',
+    proficiency: 7,
+  },
+]
+
+export const devops = [
+  {
+    name: 'ansible',
+    proficiency: 7,
+  },
+  {
+    name: 'terraform',
+    proficiency: 5,
+  },
+  {
+    name: 'shell scripting',
+    proficiency: 9,
+  },
+  {
+    name: 'CI pipelines',
     proficiency: 7,
   },
 ]
