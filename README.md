@@ -41,6 +41,11 @@
       - navigate and try to understand codebase
     - add configuration for GitHub pages deployment. follow instructions [here](https://www.gatsbyjs.org/docs/deploy-gatsby/#use-the-npm-package-code-classlanguage-textgh-pagescode-for-deploying)
       - add a `deploy` script in `package.json`
+        ```
+        "scripts": {
+          "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+        }
+        ```
       - in `gatsby-config.js`:
         ```
         module.exports = {
@@ -54,3 +59,5 @@
       - create repository on GitHub.com
       - `git remote add origin <REPO_URL>`
       - `git push -u origin master`
+    - deploy! run `yarn deploy`
+    - visit your app in your browser: `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME`
