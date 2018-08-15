@@ -9,7 +9,7 @@
 - what is gatsby
 - what problem does it solve
 - how to use it
-  - how to install cli
+  - how to use `gatsby` cli (`npx gatsby`)
   - vanilla version
   - template version
 - how to store assets (e.g. images, javascript, css, fonts)
@@ -31,33 +31,15 @@
 ### Hands on: create a gatsby app using a starter
   - docs: https://www.gatsbyjs.org/docs/gatsby-starters/
   - steps:
-    - install gatsby-cli: `yarn global add gatsby-cli`
     - find a starter that you like from this list: https://www.gatsbyjs.org/docs/gatsby-starters/ (timebox: 2 minutes)
-    - create gatsby app: `gatsby new my-app [URL_OF_STARTER_GITHUB_REPO]`
+    - create gatsby app use gatsby cli: `npx gatsby new my-app [URL_OF_STARTER_GITHUB_REPO]`
     - start development:
       - go to directory: `cd my-app`
       - open project: `code .`
-      - start development server: `gatsby develop`
+      - start development server: `npx gatsby develop`
       - navigate and try to understand codebase
-    - add configuration for GitHub pages deployment. follow instructions [here](https://www.gatsbyjs.org/docs/deploy-gatsby/#use-the-npm-package-code-classlanguage-textgh-pagescode-for-deploying)
-      - add a `deploy` script in `package.json`
-        ```
-        "scripts": {
-          "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-        }
-        ```
-      - in `gatsby-config.js`:
-        ```
-        module.exports = {
-          pathPrefix: `/repo-name`,
-        }
-        ```
-    - put project on GitHub:
-      - `git init`
-      - `git add .`
-      - `git commit -m "..."`
-      - create repository on GitHub.com
-      - `git remote add origin <REPO_URL>`
-      - `git push -u origin master`
-    - deploy! run `yarn deploy`
-    - visit your app in your browser: `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME`
+    - add configuration for deployment. 
+      - there are many options ([see instructions here](https://www.gatsbyjs.org/docs/deploy-gatsby/)), but for this session, we'll use netlify:
+        - git add, commit and push
+        - follow instructions on netlify: https://app.netlify.com/start
+    - visit your app in your browser!
