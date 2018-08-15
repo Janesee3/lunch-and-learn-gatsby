@@ -12,7 +12,7 @@
 - benefits
   - It's Just React
   - good set of starter templates
-  - some nice plugins (e.g. css templates)
+  - nice [plugins catalog](https://www.gatsbyjs.org/plugins/) (e.g. css templates)
   - deployment is the same as any React app
 - how to use it
   - how to use `gatsby` cli (`npx gatsby`)
