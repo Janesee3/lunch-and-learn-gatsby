@@ -8,6 +8,12 @@
 ### Outline of lunch and learn
 - what is gatsby
 - what problem does it solve
+  - sometimes you want a nice-looking static site without all the effort in custom styling
+- benefits
+  - It's Just React
+  - good set of starter templates
+  - some nice plugins (e.g. css templates)
+  - deployment is the same as any React app
 - how to use it
   - how to use `gatsby` cli (`npx gatsby`)
   - vanilla version
