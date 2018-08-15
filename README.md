@@ -1,4 +1,4 @@
-# Lunch and learn: Building static web applications with Gatsby
+# Lunch and learn: Building static websites with Gatsby
 
 ### Resources
 - Gatsby docs: https://www.gatsbyjs.org/docs/
