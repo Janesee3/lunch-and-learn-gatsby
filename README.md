@@ -12,6 +12,7 @@
 - benefits
   - It's Just React
   - good set of starter templates
+  - templates are mobile-responsive
   - nice [plugins catalog](https://www.gatsbyjs.org/plugins/) (e.g. css templates)
   - deployment is the same as any React app
 - how to use it
